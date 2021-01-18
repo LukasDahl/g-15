@@ -1,0 +1,15 @@
+[submodule "system-test"]
+	path = system-test
+	url = https://github.com/LukasDahl/system-test.git
+[submodule "accounts"]
+	path = accounts
+	url = https://github.com/LukasDahl/accounts.git
+[submodule "tokens"]
+	path = tokens
+	url = https://github.com/LukasDahl/tokens.git
+[submodule "reports"]
+	path = reports
+	url = https://github.com/LukasDahl/reports.git
+[submodule "payments"]
+	path = payments
+	url = https://github.com/LukasDahl/payments.git
