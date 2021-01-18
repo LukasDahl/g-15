@@ -1,0 +1,9 @@
+git submodule update --progress --init -- "accounts"
+
+git submodule update --progress --init -- "payments"
+
+git submodule update --progress --init -- "reports"
+
+git submodule update --progress --init -- "system-test"
+
+git submodule update --progress --init -- "tokens"
