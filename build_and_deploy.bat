@@ -5,31 +5,31 @@ git submodule update --progress --init -- "tokens"
 git submodule update --progress --init -- "system-test"
 
 pushd accounts
-git switch main
+git checkout main
 git pull origin main
 call build.bat
 popd
 
 pushd payments
-git switch main
+git checkout main
 git pull origin main
 call build.bat
 popd
 
 pushd reports
-git switch main
+git checkout main
 git pull origin main
 call build.bat
 popd
 
 pushd tokens
-git switch main
+git checkout main
 git pull origin main
 call build.bat
 popd
 
 pushd system-test
-git switch master
+git checkout master
 git pull origin master
 call deploy.bat
 popd
